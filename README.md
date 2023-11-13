@@ -1,6 +1,7 @@
 IMÁGEN PROXIMAMENTE
 
-#Lista de Tareas
+<h1>Lista de Tareas</h1>
+
 
 ### To Do List
 
@@ -18,8 +19,7 @@ Link: https://
 
 <hr>
 
-##### Description:
-
+<h4> Description:</h4>
 
 <p>
 This responsive To Do List Web App was developed with Vite + React.js.
