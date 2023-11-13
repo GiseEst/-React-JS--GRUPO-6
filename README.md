@@ -3,9 +3,9 @@ IMÁGEN PROXIMAMENTE
 <h1>Lista de Tareas</h1>
 
 
-### To Do List
+<h4>To Do List</h4>
 
-##### Creator:
+<h4>Creator:</h4>
 
 - Aylén Sol Martel <br>
 - Gisella Estrada <br>
@@ -19,7 +19,7 @@ Link: https://
 
 <hr>
 
-<h4> Description:</h4>
+<h4>Description:</h4>
 
 <p>
 This responsive To Do List Web App was developed with Vite + React.js.
@@ -28,7 +28,7 @@ One of the most interesting features is that data is saved in local storage memo
 </p>
 
 <hr>
-##### Details:
+<h4>Details:</h4>
 
 
 <p>
@@ -37,7 +37,7 @@ more info
 <br>
 <hr>
 
-##### Technologies used:
+<h4>Technologies used:</h4>
 
 - React.js
 - CSS3
