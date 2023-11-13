@@ -28,7 +28,8 @@ One of the most interesting features is that data is saved in local storage memo
 </p>
 
 <hr>
-#### Details:
+##### Details:
+
 
 <p>
 more info
