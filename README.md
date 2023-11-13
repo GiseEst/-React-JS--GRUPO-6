@@ -44,8 +44,23 @@ more info
 - JavaScrippt
 - Vite
 - React-Icons
+- Node.js
 
 <br>
+<hr>
+
+<h5>Vite</h5>
+<h6>new poyect:</h6>
+- npm create vite@latest
+- cd my-proyect
+- npm install
+- npm run dev
+
+
+<h5>React-Icons</h5>
+- npm install react-icons --save
+
+
 
 
 > 2023
