@@ -16,7 +16,6 @@ IMÁGEN PROXIMAMENTE
 
 Link: https://
 
-<br>
 <hr>
 
 ##### Description:
@@ -29,7 +28,7 @@ One of the most interesting features is that data is saved in local storage memo
 </p>
 
 <hr>
-##### Details:
+#### Details:
 
 <p>
 more info
@@ -46,7 +45,7 @@ more info
 - React-Icons
 
 <br>
-<hr>
+
 
 > 2023
 
