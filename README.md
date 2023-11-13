@@ -1,31 +1,44 @@
-# -React-JS--GRUPO-6
+IMÁGEN PROXIMAMENTE
 
-Lista de Tareas
+#Lista de Tareas
 
-Colaboradores
-Aylén Sol Martel
-Gisella Estrada
-Cinthia Belen Gomez
-Giselle Ruybal
+### To Do List
 
-https://
+##### Creator:
+<hr>
+- Aylén Sol Martel
+- Gisella Estrada
+- Cinthia Belen Gomez
+- Giselle Ruybal
 
+<br>
 
-Descripción
+Link: https://
 
-Esta aplicación web responsiva "To Do List" fue desarrollada con React.j + Vite. Puede agregar y eliminar tareas, marcar y desmarcar como completadas y también pueden filtrar entre tareas completadas e incompletas.
-Una de las carácteristicas más interesantes es que los datos se guardan en la memoria de almacenamiento local, de modo que las tareas no se pierden al cerrar o recargar la página.
+<br>
 
+##### Description:
+<hr>
+<p>
+This responsive To Do List Web App was developed with Vite + React.js.
+You can add and remove tasks, mark and unmark as completed, and you can also filter between completed and incomplete tasks. 
+One of the most interesting features is that data is saved in local storage memory, so that tasks are not lost when closing or reloading the page.
+</p>
 
+##### Details:
+<hr>
+<p>
+more info
+</p>
 
-Detalles
+##### Technologies used:
+<hr>
 
+- React.js
+- CSS3
+- JavaScrippt
+- Vite
+- React-Icons
 
+> 2023
 
-
-Tecnologías utilizadas
-React.Js
-CSS3
-JavaScript
-Vite
-React-Icons
