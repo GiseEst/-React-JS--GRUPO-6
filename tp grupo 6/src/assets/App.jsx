@@ -39,7 +39,7 @@ export default App
 import React, { useState, useEffect } from 'react';
 import { TaskForm } from './components/TaskForm';
 import { TaskList } from './components/TaskList';
-import './style/style.css'
+import './estilo/style.css'
 
 
 const App = () => {
