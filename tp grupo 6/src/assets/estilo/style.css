@@ -40,9 +40,7 @@ button, input {
 }
 input {
   margin: 10px;
-  color: rgb(0, 0, 0);
-  
-
+  color: rgb(71, 21, 21);
   
 }
 button:hover,
@@ -86,7 +84,7 @@ style {
   padding: 20px;
   margin-left: 250px;
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   
 }
@@ -100,10 +98,6 @@ flex-wrap: wrap;
   margin-right: 50px;
 }
 
-
-.setTaskName {
-  color: aliceblue;
-}
 
 
 /* IDEAS 
