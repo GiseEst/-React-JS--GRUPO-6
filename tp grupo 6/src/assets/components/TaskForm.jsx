@@ -21,6 +21,7 @@ export const TaskForm = ({ addTask }) => {
         placeholder="Nueva tarea"
       />
       <button type="submit" >Agregar</button>
+      
     </form>
   )
 }

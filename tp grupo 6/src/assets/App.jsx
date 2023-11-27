@@ -36,14 +36,33 @@ const App = () => {
     setTasks([...tasks, newTask]);
   };
 
+   // useEffect para cargar tareas desde localStorage al inicio
+  useEffect(() => {
+    const storedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
+    setTasks(storedTasks);
+  }, []);
+
   // useEffect para realizar acciones cuando cambia el estado de las tareas
   useEffect(() => {
+    // Guardar tareas en localStorage cada vez que cambie el estado de las tareas
+    saveTasksToLocalStorage(tasks);
     // Ejemplo: Mostrar un mensaje cuando se agrega o elimina una tarea
     console.log('Tareas actualizadas:', tasks);
   }, [tasks]);
 
+  // Función para guardar tareas en localStorage
+  const saveTasksToLocalStorage = updatedTasks => {
+    try {
+      localStorage.setItem('tasks', JSON.stringify(updatedTasks));
+    } catch (error) {
+      console.error('Error al guardar en localStorage:', error);
+    }
+  };
+
+
+
   return (
-    <div>
+    <div className='body'>
       <h1>Lista de tareas</h1>
       <TaskForm addTask={addTask} />
       <TaskList
