@@ -40,13 +40,9 @@ button, input {
 }
 input {
   margin: 10px;
-<<<<<<< HEAD
   color: rgb(0, 0, 0);
   
 
-=======
-  color: rgb(71, 21, 21);
->>>>>>> 2adac189eb40a79d3491ce15380450b4a0e73fbb
   
 }
 button:hover,
@@ -90,11 +86,7 @@ style {
   padding: 20px;
   margin-left: 250px;
   display: flex;
-<<<<<<< HEAD
 flex-wrap: wrap;
-=======
-  flex-wrap: wrap;
->>>>>>> 2adac189eb40a79d3491ce15380450b4a0e73fbb
   align-items: center;
   
 }
@@ -102,7 +94,6 @@ flex-wrap: wrap;
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
-<<<<<<< HEAD
 }
 
 .button-container button {
@@ -114,15 +105,6 @@ flex-wrap: wrap;
   color: aliceblue;
 }
 
-=======
-}
-
-.button-container button {
-  margin-right: 50px;
-}
-
-
->>>>>>> 2adac189eb40a79d3491ce15380450b4a0e73fbb
 
 /* IDEAS 
 
