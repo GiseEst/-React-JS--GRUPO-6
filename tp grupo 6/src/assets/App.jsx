@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { TaskForm } from './components/TaskForm';
 import { TaskList } from './components/TaskList';
 import './estilo/style.css'
-
+import gatito from './estilo/fotos/gatito.gif'
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
@@ -60,7 +60,6 @@ const App = () => {
   };
 
 
-
   return (
     <div className='body'>
       <h1>Lista de tareas</h1>
@@ -70,6 +69,11 @@ const App = () => {
         handleComplete={handleComplete}
         handleDelete={handleDelete}
       />
+    </div>
+  );
+  return (
+    <div className='footer'>
+    <img src={gatito}/>
     </div>
   );
 
