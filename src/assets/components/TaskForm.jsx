@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../estilo/'
+import '../estilo/style.css'
 
 export const TaskForm = ({ addTask }) => {
     const [taskName, setTaskName] = useState('');
