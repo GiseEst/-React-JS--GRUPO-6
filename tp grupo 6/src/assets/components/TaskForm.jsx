@@ -3,7 +3,7 @@ import '../estilo/style.css'
 
 export const TaskForm = ({ addTask }) => {
     const [taskName, setTaskName] = useState('');
-    //el evento para el formulario
+    
     const handleSubmit = e => {
         e.preventDefault();
         if (taskName.trim() !== ''){

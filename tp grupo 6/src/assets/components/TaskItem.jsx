@@ -5,7 +5,7 @@ export const TaskItem = ({handleComplete, handleDelete, task}) => {
 
     const toggleComplete = () =>{
         setIsCompleted(!isCompleted)
-        handleComplete(task.id) //estamos llamando a la tarea que esta completada
+        handleComplete(task.id) 
     }
 
     const onDelete = () => {

@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  background: linear-gradient(to right, #654ea3, #eaafc8);
 }
 h1{
   text-align: center;
   color: aliceblue;
   padding: 20px 0;
   border-bottom: 5px solid;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 button {
   padding: 5px 10px;
@@ -23,19 +24,57 @@ button {
 button:hover {
   background-color: #555;
 }
+/*desde aca*/
+button, input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px;
+  
+}
+input {
+  margin: 10px;
+  
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.container {
+  max-width: 800px;
+  padding: 20px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.button-container {
+  margin-bottom: 10px; 
+}
 
 /* IDEAS 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  min-height: 90vh;
-}
-
 
 .tema1{
   background-repeat: repeat-x;
